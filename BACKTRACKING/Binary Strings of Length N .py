@@ -12,4 +12,4 @@ def binary(digit):
     backtrack("")
     return result
 
-print(binary(3))
+print(binary(4))
