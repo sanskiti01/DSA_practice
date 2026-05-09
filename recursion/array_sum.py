@@ -7,3 +7,4 @@ def sum_array(n):
     return first + sum_array(rest)
 
 print(sum_array([1,2,3,4,5]))
+print(sum_array([4,5,0,3,1]))
