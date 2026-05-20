@@ -21,7 +21,7 @@ def search(board,word):
                  backtrack(row,col-1,index+1))
         board[row][col]=temp
 
-        return found
+        return found 
     
     for i in range(rows):
         for j in range(cols):
